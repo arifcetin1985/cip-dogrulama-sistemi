@@ -7,7 +7,7 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 
 export const metadata: Metadata = {
   title: "Yarış Çip Kayıt ve Doğrulama",
-  description: "Katılımcı kaydı, elektronik zamanlama çipi atama ve teslim doğrulama sistemi.",
+  description: "Katılımcı kaydı, elektronik zamanlama çipi atama ve teslimatı doğrulama sistemi.",
   other: { "codex-preview": "development" },
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
 };
