@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1786564134733,
+      "tag": "0000_medical_cargill",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1786565369049,
+      "tag": "0001_polite_jasper_sitwell",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1786569277570,
+      "tag": "0002_melodic_franklin_richards",
+      "breakpoints": true
+    }
+  ]
+}
