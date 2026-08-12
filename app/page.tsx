@@ -126,7 +126,7 @@ export default function Home() {
 
 function Dashboard({ participants, stats, loading, onNavigate }: { participants: Participant[]; stats: { total: number; assigned: number; verified: number; waiting: number }; loading: boolean; onNavigate: (view: View) => void }) {
   return <>
-    <div className="page-heading"><div><p className="eyebrow">Excel tabanlı operasyon</p><h2>Organizatör listesinden çip doğrulamaya</h2><p>Kayıt formu bu sistemde yer almaz. Organizatörün ilettiği Excel dosyası yüklenir; tüm katılımcılara göğüs numarası ve çip kodu tek işlemde atanır.</p></div><button className="primary-button" onClick={() => onNavigate("import")}>Excel listesi yükle →</button></div>
+    <div className="page-heading"><div><p className="eyebrow">Operasyon</p><h2>İstanbul Yol Koşusu</h2><p>Kayıt formu bu sistemde yer almaz. Organizatörün ilettiği Excel dosyası yüklenir; tüm katılımcılara göğüs numarası ve çip kodu tek işlemde atanır.</p></div><button className="primary-button" onClick={() => onNavigate("import")}>Excel listesi yükle →</button></div>
     <div className="stats-grid">
       <StatCard label="Aktarılan kayıt" value={stats.total} tone="ink" detail="katılımcı" />
       <StatCard label="Otomatik atama" value={stats.assigned} tone="blue" detail="çip + göğüs no." />
