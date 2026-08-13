@@ -241,7 +241,7 @@ function ExcelImport({ onImported, setFlash }: { onImported: (result: { imported
   }
 
   return <>
-    <PageTitle step="1 / 4" title="Organizatör Excel listesini yükle" text="Kayıt sayfası kullanılmaz. Mevcut kayıt platformundan dışa aktarılan katılımcı dosyasını seçin; sistem listeyi kontrol edip otomatik atamaya hazırlar." />
+    <PageTitle step="1 / 4" title="Organizatör Excel listesini yükle" text="Organizatörün kayıt sisteminden gelen datalar excel formatında sisteme yüklenir." />
     <div className="import-layout">
       <section className="panel upload-panel">
         <input ref={inputRef} className="visually-hidden" type="file" accept=".xlsx,.xls,.csv" onChange={readFile} />
