@@ -248,7 +248,7 @@ function ExcelImport({ onImported, setFlash }: { onImported: (result: { imported
         <button type="button" className={rows.length ? "dropzone ready" : "dropzone"} onClick={() => inputRef.current?.click()}>
           <span className="file-icon">{rows.length ? "✓" : "↑"}</span>
           <strong>{reading ? "Dosya okunuyor…" : rows.length ? fileName : "Excel dosyasını seçin"}</strong>
-          <small>{rows.length ? `${rows.length} katılımcı bulundu` : ".xlsx, .xls veya .csv · En fazla 1.000 kayıt"}</small>
+          <small>{rows.length ? `${rows.length} katılımcı bulundu` : ".xlsx, .xls veya .csv ·"}</small>
         </button>
         <div className="template-row"><div><strong>Denemek için örnek liste</strong><p>Organizatörden gelmiş gibi hazırlanmış 100 kişilik Excel dosyası.</p></div><button className="secondary-button" type="button" onClick={downloadDemo}>100 kişilik örnek Excel indir</button></div>
       </section>
